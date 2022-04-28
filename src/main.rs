@@ -12,8 +12,8 @@ struct Cli {
 
 fn main() {
     let second_formats = [String::from("s"), String::from("second"), String::from("seconds")];
-    let nano_formats = [String::from("n"), String::from("nano"), String::from("nanos")];
-    let milli_formats = [String::from("m"), String::from("milli"), String::from("millis")];
+    let milli_formats = [String::from("m"), String::from("ms"), String::from("milli"), String::from("millis")];
+    let nano_formats = [String::from("n"), String::from("ns"), String::from("nano"), String::from("nanos")];
     
     let args = Cli::parse();
     let time_fmt = args.fmt;

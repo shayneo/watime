@@ -43,6 +43,7 @@ fn main() {
                 ██░█░█░█░▀▀░███░███░▄█▄
                 ██▄▀▄▀▄█░██░███░███▀██▀
                 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀");
+                return
             }
             if time_fmt != "" {
                 let msg = format!("WAT? {} is an invalid format", time_fmt);

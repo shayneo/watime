@@ -24,7 +24,7 @@ watime -f m
 ```
 
 ### Nanos
-Accepts `n` or `ns` or `nano` or `nanoss`
+Accepts `n` or `ns` or `nano` or `nanos`
 ```
 watime -f n
 ```

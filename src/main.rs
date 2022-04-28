@@ -36,8 +36,16 @@ fn main() {
                 println!("{}", now.to_rfc3339());
                 return
             }
+            if time_fmt == "wat" {
+                println!("
+                ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                ██░███░█░▄▄▀█▄▄░▄▄█▄░█░
+                ██░█░█░█░▀▀░███░███░▄█▄
+                ██▄▀▄▀▄█░██░███░███▀██▀
+                ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀");
+            }
             if time_fmt != "" {
-                let msg = format!("{} is an invalid format", time_fmt);
+                let msg = format!("WAT? {} is an invalid format", time_fmt);
                 panic!("{}", msg);
             }
 
